@@ -1,0 +1,137 @@
+libtry-tiny-perl (0.22-1) unstable; urgency=medium
+
+  * Imported Upstream version 0.22
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sat, 03 May 2014 11:12:27 +0200
+
+libtry-tiny-perl (0.21-1) unstable; urgency=medium
+
+  * Imported Upstream version 0.21
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Tue, 15 Apr 2014 20:43:42 +0200
+
+libtry-tiny-perl (0.20-1) unstable; urgency=medium
+
+  [ gregor herrmann ]
+  * Strip trailing slash from metacpan URLs.
+
+  [ Salvatore Bonaccorso ]
+  * Imported Upstream version 0.20
+  * Add build dependency for Capture::Tiny 0.12.
+    Capture::Tiny is used optionally in the testsuite. Add a Build-Depends
+    on libcapture-tiny-perl (>= 0.12).
+  * Wrap and sort fields in debian/control file
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sat, 22 Mar 2014 15:25:48 +0100
+
+libtry-tiny-perl (0.19-1) unstable; urgency=medium
+
+  * Imported Upstream version 0.19
+  * Update copyright years for upstream files
+  * Update copyright years for debian/* packaging files
+  * Declare compliance with Debian Policy 3.9.5
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Thu, 23 Jan 2014 10:42:28 +0100
+
+libtry-tiny-perl (0.18-1) unstable; urgency=low
+
+  * Imported Upstream version 0.18
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sat, 17 Aug 2013 21:43:25 +0200
+
+libtry-tiny-perl (0.17-1) unstable; urgency=low
+
+  * Imported Upstream version 0.17
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sat, 17 Aug 2013 11:55:26 +0200
+
+libtry-tiny-perl (0.16-1) unstable; urgency=low
+
+  * Imported Upstream version 0.16
+  * Add (build-)dependency for Sub::Name.
+    Add Build-Depends-Indep and Suggests on libsub-name-perl.
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Thu, 11 Jul 2013 23:07:43 +0200
+
+libtry-tiny-perl (0.14-1) unstable; urgency=low
+
+  * Imported Upstream version 0.14
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sat, 06 Jul 2013 10:20:15 +0200
+
+libtry-tiny-perl (0.13-1) unstable; urgency=low
+
+  * Imported Upstream version 0.13
+  * Change Vcs-Git to canonical URI (git://anonscm.debian.org)
+  * Change search.cpan.org based URIs to metacpan.org based URIs
+  * Update copyright years for upstream and debian/* packaging files
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Thu, 04 Jul 2013 19:34:30 +0200
+
+libtry-tiny-perl (0.12-1) unstable; urgency=low
+
+  * Imported Upstream version 0.12
+  * Update debian/copyright file information.
+    Update format to copyright-format 1.0 as released together with Debian
+    policy 3.9.3.
+    Update copyright years for debian/* packaging.
+  * Bump Standards-Version to 3.9.4
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Wed, 02 Jan 2013 20:01:47 +0100
+
+libtry-tiny-perl (0.11-1) unstable; urgency=low
+
+  [ Ansgar Burchardt ]
+  * debian/control: Convert Vcs-* fields to Git.
+
+  [ Salvatore Bonaccorso ]
+  * debian/copyright: Replace DEP5 Format-Specification URL from
+    svn.debian.org to anonscm.debian.org URL.
+
+  [ gregor herrmann ]
+  * New upstream release.
+  * Set Standards-Version to 3.9.2 (no changes).
+  * Bump debhelper compatibility level to 8.
+  * Add /me to Uploaders.
+
+ -- gregor herrmann <gregoa@debian.org>  Wed, 31 Aug 2011 20:38:40 +0200
+
+libtry-tiny-perl (0.09-1) unstable; urgency=low
+
+  * New upstream release
+  * Add myself to Uploaders.
+  * debian/copyright: Update debian/* packaging stanza.
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Mon, 29 Nov 2010 09:27:50 +0100
+
+libtry-tiny-perl (0.07-1) unstable; urgency=low
+
+  [ gregor herrmann ]
+  * debian/rules: switch order of arguments to dh.
+
+  [ Ansgar Burchardt ]
+  * New upstream release.
+  * Patch fix-pod-spelling.patch has been applied upstream.
+  * Use source format 3.0 (quilt); drop README.source and quilt framework.
+  * Bump standards-Version to 3.9.1.
+  * Update my email address.
+
+ -- Ansgar Burchardt <ansgar@debian.org>  Sat, 23 Oct 2010 13:45:51 +0200
+
+libtry-tiny-perl (0.04-1) unstable; urgency=low
+
+  * New upstream release
+  * Update to new DEP5 copyright format
+  * Rewrite control description
+  * Add myself to Uploaders and Copyright
+  * Add a patch to fix POD typos
+  * Add debian/README.source to document quilt usage, as required by
+    Debian Policy since 3.8.0.
+
+ -- Jonathan Yu <jawnsy@cpan.org>  Sun, 24 Jan 2010 13:33:22 -0500
+
+libtry-tiny-perl (0.02-1) unstable; urgency=low
+
+  * Initial Release. (Closes: #547299)
+
+ -- Ansgar Burchardt <ansgar@43-1.org>  Fri, 18 Sep 2009 20:39:00 +0200
